@@ -145,13 +145,7 @@ const topSkills = [
   { name: 'Microservices & APIs', level: 93 },
   { name: 'Docker, Kubernetes & CI/CD', level: 88 },
 ];
-const topSkills = [
-  { name: 'Python & Java', level: 95 },
-  { name: 'Spring Boot & FastAPI', level: 92 },
-  { name: 'AWS & Azure', level: 88 },
-  { name: 'Docker & Kubernetes', level: 85 },
-  { name: 'CI/CD Pipelines', level: 90 },
-];
+
 
 const ProgressRing = ({ progress, size = 80, strokeWidth = 6 }: { progress: number; size?: number; strokeWidth?: number }) => {
   const radius = (size - strokeWidth) / 2;
